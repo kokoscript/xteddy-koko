@@ -1,2 +1,2 @@
 sudo cp xkoko.png /usr/share/xteddy
-sudo ln -s $(command -v xteddy) $(command -v xteddy | cut -d / -f 1-3)/xkoko
+sudo ln -s $(command -v xteddy) $(dirname $(command -v xteddy))/xkoko
